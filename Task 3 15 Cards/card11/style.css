@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&family=Montserrat:wght@400;700&family=Roboto:wght@400;500&family=Sacramento&family=Ubuntu&display=swap');
+/* card1 general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 700px;
+    width: 100%;
+    background: #ffffff;
+}
+.container .card11{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+    width: 360px;
+    height: 658px;
+    background: #ffffff;
+    box-shadow: 0 5px 5px 5px rgba(173, 170, 170, 0.5);
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* row2 styling */
+.circle{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.51), rgba(255, 255, 255, 0.51)), linear-gradient(90deg, #FFEEEE 0%, #DDEFBB 100%);
+    border-radius: 200px;
+    width: 230px;
+    height: 230px;
+    margin: 60px auto 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.circle img{
+    height: 272px;
+    width: 80;
+    margin-bottom: 75px;
+}
+
+/* row3 styling */
+.row3 h5{
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    letter-spacing: 0.5px;
+    margin: 30px auto 15px;
+}
+.row3 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 15px;
+    width: 310px;
+    height: 69px;
+}
+.row4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 68px;
+}
+.row4 p{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    padding-top: 16px;
+}
+.row4 div{
+    background: #F7F7F7;
+    padding: 11px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.row4 span{
+   /* padding: 8px; */
+   margin-right: 4px;
+   margin-left: 4px;
+  
+}
+.row4 .span3{
+   padding: 5px;
+    border-radius: 50%;
+    background:#FFFFFF ;
+} 

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&family=Sacramento&family=Ubuntu&display=swap');
+/* card1 general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 650px;
+    width: 100%;
+    background: #ffffff;
+}
+.container .card9{
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px; 
+    width: 360px;
+    height: 377px;
+    background: #8DD4EB;
+    box-shadow: 10px 2px 32px rgba(0, 0, 0, 0.25);
+    font-family: 'Roboto', sans-serif;
+}
+/* row1 styling */
+.row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px 20px;
+    position: relative;
+}
+.row1 div{
+    display: flex;
+}
+.row1 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.img1{
+    position: absolute;
+    left: 71px;
+}
+.img2{
+    position: absolute;
+    left: 48px;
+}
+.row1 span{
+    background: #000000;
+    border-radius: 100%;
+    padding: 11px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    font-weight: 500;
+}
+
+.row1 i{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* row2 styling */
+.row2{
+    display: flex;
+    padding: 25px;
+    font-weight: 900;
+    width: 310px;
+    height: 86px;
+    align-self: stretch;
+    font-size: 33px;
+    line-height: 43px;
+    margin-bottom: 15px;
+}
+
+/* row3 styling */
+.row3 p{
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 16px;
+    font-style: normal;
+    color: #000000;
+    letter-spacing: 0.5px;
+    padding: 0px 25px;
+    margin-top: 8px;
+    height: 46px;
+    width: 310;
+}
+.row4{
+    padding: 25px;
+}
+.row4 p{
+width: 127px;
+height: 23px;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.5px;
+color: #000000
+}
+.row4 input{
+    width: 300px;
+}

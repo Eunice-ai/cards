@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&family=Sacramento&family=Ubuntu&display=swap');
+/* card1 general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 650px;
+    width: 100%;
+    background: #ffffff;
+}
+.container .card2{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+    width: 360px;
+    height: 312px;
+    background: #ffffff;
+    box-shadow: 0 5px 5px 5px rgba(173, 170, 170, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+/* row1 styling */
+.row1{
+    display: flex;
+    padding: 20px 30px 20px;
+}
+.row1 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.row1 .content{
+    margin-top: 6px;
+    flex-direction: column;
+}
+.row1 h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #000000;
+}
+.row1 p{
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #78858F;
+    align-self: stretch;
+}
+
+
+/* row2 styling */
+.row2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 360px;
+    height: 184px;
+}
+.row2 p{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 38px;
+    color: #000000;
+    width: 310px;
+    font-style: normal;
+    align-self: stretch;
+    margin: 20px 20px;
+}
+
+/* row3 styling */
+.row3 p{
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 16px;
+    font-style: normal;
+    color: #78858F;
+    letter-spacing: 0.5px;
+    padding: 20px 30px 20px;
+}

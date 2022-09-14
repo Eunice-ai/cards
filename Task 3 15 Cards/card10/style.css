@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&family=Montserrat:wght@400;700&family=Roboto:wght@400;500&family=Sacramento&family=Ubuntu&display=swap');
+/* card1 general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 650px;
+    width: 100%;
+    background: #ffffff;
+}
+.container .card10{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+    width: 360px;
+    height: 505px;
+    background: #ffffff;
+    box-shadow: 0 5px 5px 5px rgba(173, 170, 170, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+/* row1 styling */
+.row1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px;
+}
+.row1 img{
+    margin-top: 25px;
+}
+.row1 .content{
+    margin-top: 6px;
+    flex-direction: column;
+} 
+.row1 h5{
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 32px;
+    color: #000000;
+}
+.row1 p{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #717171;
+    line-height: 23px;
+}
+
+
+/* row2 styling */
+.row2{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    width: 232px;
+    height: 230px;
+    background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
+    box-shadow: 0px 11px 26px -15px rgba(0, 0, 0, 0.14);
+    border-radius: 200px;
+}
+
+/* row3 styling */
+.row3{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+.row3 p{
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 35px;
+    font-style: normal;
+    color: #000000;
+    letter-spacing: 0.5px;
+    line-height: 23px;
+    margin-top: 15px;
+}
+.row3 img{
+    cursor: pointer;
+    padding: 17.5px 18.5px;
+    background-color: #000000;
+    border-radius: 20px;
+    width: 54px;
+    height: 54px;
+    box-shadow: 0px 3px 26px -5px rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&family=Sacramento&family=Ubuntu&display=swap');
+/* card1 general styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    height: 650px;
+    width: 100%;
+    background: #ffffff;
+}
+.container .card8{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px; 
+    width: 360px;
+    height: 533px;
+    background: #ffffff;
+    box-shadow: 0 5px 5px 5px rgba(173, 170, 170, 0.5);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* row1 styling */
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 227px;
+    background: url('../Images/Image\ Card8.jpg');
+    align-self: stretch;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* row2 styling */
+.row2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 10px;
+    width: 360px;
+    height: 184px;
+    font-style: normal;
+    margin: 20px;
+}
+.row2 .paragraph1{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 38px;
+    color: #000000;
+    width: 310px;
+    align-self: stretch;
+    padding: 10px 0;
+}
+.row2 .paragraph2{
+    color: #838383;
+    padding: 0 0 10px; 
+    font-size: 17px;
+    text-align: left;
+}
+.row2 .paragraph3{
+    width: 310px;
+    height: 73px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 141%;
+}
+
+
+/* row3 styling */
+.row3{
+    display: flex;
+    margin: 20px;  
+}
+.row3 img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.row3 h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 20px;
+}
